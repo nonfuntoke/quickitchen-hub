@@ -82,11 +82,11 @@ const Index = () => {
         <main className="flex-1 relative z-10 flex flex-col items-center px-6 py-12 max-w-md mx-auto w-full">
           {/* Header / Logo */}
           <header className="text-center mb-8 opacity-0 animate-scale-in">
-            <div className="logo-glow inline-block rounded-3xl overflow-hidden mb-6">
+            <div className="logo-glow inline-block rounded-2xl overflow-hidden mb-4">
               <img
                 src={logo}
                 alt="Quickitchen Logo"
-                className="w-28 h-28 object-contain"
+                className="w-20 h-20 object-contain"
               />
             </div>
             <h1 className="text-2xl font-bold text-foreground mb-2">
