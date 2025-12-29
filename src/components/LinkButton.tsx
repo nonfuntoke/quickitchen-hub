@@ -1,8 +1,8 @@
-import { LucideIcon } from "lucide-react";
+import { ComponentType, SVGProps } from "react";
 
 interface LinkButtonProps {
   href: string;
-  icon: LucideIcon;
+  icon: ComponentType<SVGProps<SVGSVGElement> & { className?: string }>;
   label: string;
   sublabel?: string;
   delay?: number;
