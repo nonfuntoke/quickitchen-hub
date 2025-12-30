@@ -26,25 +26,25 @@ const Index = () => {
       sublabel: "@quickitchen.ma",
     },
     {
-      href: "https://facebook.com/quickitchen-ma",
+      href: "https://www.facebook.com/share/17sihQ86qH/",
       icon: Facebook,
       label: "Facebook",
       sublabel: "Quickitchen Morocco",
     },
     {
-      href: "https://tiktok.com/@quickitchen_ma",
+      href: "https://tiktok.com/@quickitchenma",
       icon: TikTokIcon,
       label: "TikTok",
-      sublabel: "@quickitchen_ma",
+      sublabel: "@quickitchenma",
     },
   ];
 
   const contactLinks = [
     {
-      href: "https://wa.me/212663000000",
+      href: "https://wa.me/212660694968",
       icon: MessageCircle,
       label: "WhatsApp Casablanca",
-      sublabel: "+212 663 000 000",
+      sublabel: "+212 660 694 968",
     },
     {
       href: "https://wa.me/212661287072",
@@ -56,13 +56,13 @@ const Index = () => {
 
   const locationLinks = [
     {
-      href: "https://maps.google.com/?q=Quickitchen+Casablanca",
+      href: "https://maps.app.goo.gl/U4ZriaUsu8USrKy6A",
       icon: MapPin,
       label: "Casablanca",
       sublabel: "Voir sur la carte",
     },
     {
-      href: "https://maps.google.com/?q=Quickitchen+Agadir",
+      href: "https://maps.app.goo.gl/uMX4TGw3HXYu7urKA",
       icon: MapPin,
       label: "Agadir",
       sublabel: "Voir sur la carte",
@@ -93,14 +93,14 @@ const Index = () => {
               Quickitchen
             </h1>
             <p className="text-muted-foreground text-sm font-medium mb-4">
-              Asian Food & More 🍜
+              World Flavors, One Kitchen 🍜🍕🍔
             </p>
             {/* French Description */}
             <p 
               className="text-foreground/90 text-sm leading-relaxed max-w-xs mx-auto opacity-0 animate-fade-in-up"
               style={{ animationDelay: "100ms" }}
             >
-              Découvrez le meilleur de la cuisine asiatique. Sushi, thaï, vietnamien et bien plus, livrés chez vous à Casablanca et Agadir.
+              Sushi, ramen, wok, pizza, pasta, burgers & healthy bowls — toutes vos envies livrées à Casablanca et Agadir.
             </p>
           </header>
 
